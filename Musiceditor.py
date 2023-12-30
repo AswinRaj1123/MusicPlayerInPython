@@ -73,8 +73,6 @@ topframe = Frame(rtframe,bg="#f7e843")
 topframe.pack()
 root.style = ttk.Style()
 
-#Apply the "clam" theme to the root style
-
 root.style.configure('TLabel', background='#f7e843')
 lengthlabel = ttk.Label(topframe,text='Total Time : --:--')
 lengthlabel.pack(pady=5)
